@@ -1,0 +1,55 @@
+name: stock-monitor
+
+on:
+  schedule:
+    # Toutes les 5 minutes, decale de 3 min pour eviter l'embouteillage
+    # des runners a l'heure pile (les crons GitHub y sont souvent retardes).
+    - cron: "3-59/5 * * * *"
+  workflow_dispatch:
+    inputs:
+      force_test:
+        description: "Envoyer un mail de test"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stock-monitor
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Verifier le stock
+        env:
+          SHOP_URL: https://skylrk.com
+          KEYWORDS: matterdaddies
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+          FORCE_TEST: ${{ inputs.force_test }}
+        run: python monitor.py
+
+      - name: Sauvegarder l'etat
+        run: |
+          git config user.name  "stock-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state.json
+          if git diff --staged --quiet; then
+            echo "Aucun changement d'etat."
+          else
+            git commit -m "state: $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git pull --rebase --autostash
+            git push
+          fi
