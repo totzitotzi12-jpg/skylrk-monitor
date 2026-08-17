@@ -1,4 +1,88 @@
 {
+  "45262870872243": {
+    "available": false,
+    "handle": "matterdaddies",
+    "price": "140.00",
+    "product": "MATTERDADDIES",
+    "size": "SMOKE / M 14"
+  },
+  "45262871363763": {
+    "available": false,
+    "handle": "matterdaddies",
+    "price": "140.00",
+    "product": "MATTERDADDIES",
+    "size": "SMOKE / M 15"
+  },
+  "45262871396531": {
+    "available": false,
+    "handle": "matterdaddies",
+    "price": "140.00",
+    "product": "MATTERDADDIES",
+    "size": "SMOKE / M 13 / W 14"
+  },
+  "45262871429299": {
+    "available": false,
+    "handle": "matterdaddies",
+    "price": "140.00",
+    "product": "MATTERDADDIES",
+    "size": "SMOKE / M 12 / W 13"
+  },
+  "45262871462067": {
+    "available": false,
+    "handle": "matterdaddies",
+    "price": "140.00",
+    "product": "MATTERDADDIES",
+    "size": "SMOKE / M 11 / W 12"
+  },
+  "45262871494835": {
+    "available": false,
+    "handle": "matterdaddies",
+    "price": "140.00",
+    "product": "MATTERDADDIES",
+    "size": "SMOKE / M 10 / W 11"
+  },
+  "45262871527603": {
+    "available": true,
+    "handle": "matterdaddies",
+    "price": "140.00",
+    "product": "MATTERDADDIES",
+    "size": "SMOKE / M 9 / W 10"
+  },
+  "45262871560371": {
+    "available": false,
+    "handle": "matterdaddies",
+    "price": "140.00",
+    "product": "MATTERDADDIES",
+    "size": "SMOKE / M 8 / W 9"
+  },
+  "45262871593139": {
+    "available": false,
+    "handle": "matterdaddies",
+    "price": "140.00",
+    "product": "MATTERDADDIES",
+    "size": "SMOKE / M 7 / W 8"
+  },
+  "45262871625907": {
+    "available": false,
+    "handle": "matterdaddies",
+    "price": "140.00",
+    "product": "MATTERDADDIES",
+    "size": "SMOKE / M 6 / W 7"
+  },
+  "45262871658675": {
+    "available": false,
+    "handle": "matterdaddies",
+    "price": "140.00",
+    "product": "MATTERDADDIES",
+    "size": "SMOKE / M 5 / W 6"
+  },
+  "45262871691443": {
+    "available": false,
+    "handle": "matterdaddies",
+    "price": "140.00",
+    "product": "MATTERDADDIES",
+    "size": "SMOKE / M 4 / W 5"
+  },
   "45623629807795": {
     "available": false,
     "handle": "matterdaddies-toy",
@@ -82,5 +166,89 @@
     "price": "140.00",
     "product": "MATTERDADDIES",
     "size": "TOY / M 15 / W 16"
+  },
+  "45623631315123": {
+    "available": false,
+    "handle": "matterdaddies-sage",
+    "price": "140.00",
+    "product": "MATTERDADDIES - SAGE",
+    "size": "SAGE / M 4 / W 5"
+  },
+  "45623631347891": {
+    "available": false,
+    "handle": "matterdaddies-sage",
+    "price": "140.00",
+    "product": "MATTERDADDIES - SAGE",
+    "size": "SAGE / M 5 / W 6"
+  },
+  "45623631380659": {
+    "available": false,
+    "handle": "matterdaddies-sage",
+    "price": "140.00",
+    "product": "MATTERDADDIES - SAGE",
+    "size": "SAGE / M 6 / W 7"
+  },
+  "45623631413427": {
+    "available": false,
+    "handle": "matterdaddies-sage",
+    "price": "140.00",
+    "product": "MATTERDADDIES - SAGE",
+    "size": "SAGE / M 7 / W 8"
+  },
+  "45623631446195": {
+    "available": false,
+    "handle": "matterdaddies-sage",
+    "price": "140.00",
+    "product": "MATTERDADDIES - SAGE",
+    "size": "SAGE / M 8 / W 9"
+  },
+  "45623631478963": {
+    "available": false,
+    "handle": "matterdaddies-sage",
+    "price": "140.00",
+    "product": "MATTERDADDIES - SAGE",
+    "size": "SAGE / M 9 / W 10"
+  },
+  "45623631511731": {
+    "available": false,
+    "handle": "matterdaddies-sage",
+    "price": "140.00",
+    "product": "MATTERDADDIES - SAGE",
+    "size": "SAGE / M 10 / W 11"
+  },
+  "45623631544499": {
+    "available": false,
+    "handle": "matterdaddies-sage",
+    "price": "140.00",
+    "product": "MATTERDADDIES - SAGE",
+    "size": "SAGE / M 11 / W 12"
+  },
+  "45623631577267": {
+    "available": false,
+    "handle": "matterdaddies-sage",
+    "price": "140.00",
+    "product": "MATTERDADDIES - SAGE",
+    "size": "SAGE / M 12 / W 13"
+  },
+  "45623631610035": {
+    "available": false,
+    "handle": "matterdaddies-sage",
+    "price": "140.00",
+    "product": "MATTERDADDIES - SAGE",
+    "size": "SAGE / M 13 / W 14"
+  },
+  "45623631642803": {
+    "available": false,
+    "handle": "matterdaddies-sage",
+    "price": "140.00",
+    "product": "MATTERDADDIES - SAGE",
+    "size": "SAGE / M 14 / W 15"
+  },
+  "45623631675571": {
+    "available": false,
+    "handle": "matterdaddies-sage",
+    "price": "140.00",
+    "product": "MATTERDADDIES - SAGE",
+    "size": "SAGE / M 15 / W 16"
   }
 }
