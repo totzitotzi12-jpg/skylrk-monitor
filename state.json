@@ -14,7 +14,7 @@
     "size": "SMOKE / M 15"
   },
   "45262871396531": {
-    "available": true,
+    "available": false,
     "handle": "matterdaddies",
     "price": "140.00",
     "product": "MATTERDADDIES",
@@ -231,7 +231,7 @@
     "size": "SAGE / M 12 / W 13"
   },
   "45623631610035": {
-    "available": true,
+    "available": false,
     "handle": "matterdaddies-sage",
     "price": "140.00",
     "product": "MATTERDADDIES - SAGE",
@@ -280,14 +280,14 @@
     "size": "PINKY / M 7 / W 8"
   },
   "45623633051827": {
-    "available": true,
+    "available": false,
     "handle": "matterdaddies-pinky",
     "price": "140.00",
     "product": "MATTERDADDIES - PINKY",
     "size": "PINKY / M 8 / W 9"
   },
   "45623633084595": {
-    "available": true,
+    "available": false,
     "handle": "matterdaddies-pinky",
     "price": "140.00",
     "product": "MATTERDADDIES - PINKY",
@@ -315,7 +315,7 @@
     "size": "PINKY / M 12 / W 13"
   },
   "45623633215667": {
-    "available": true,
+    "available": false,
     "handle": "matterdaddies-pinky",
     "price": "140.00",
     "product": "MATTERDADDIES - PINKY",
