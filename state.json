@@ -119,7 +119,7 @@
     "size": "TOY / M 8 / W 9"
   },
   "45623629971635": {
-    "available": true,
+    "available": false,
     "handle": "matterdaddies-toy",
     "price": "140.00",
     "product": "MATTERDADDIES - TOY",
@@ -203,14 +203,14 @@
     "size": "SAGE / M 8 / W 9"
   },
   "45623631478963": {
-    "available": true,
+    "available": false,
     "handle": "matterdaddies-sage",
     "price": "140.00",
     "product": "MATTERDADDIES - SAGE",
     "size": "SAGE / M 9 / W 10"
   },
   "45623631511731": {
-    "available": true,
+    "available": false,
     "handle": "matterdaddies-sage",
     "price": "140.00",
     "product": "MATTERDADDIES - SAGE",
@@ -238,14 +238,14 @@
     "size": "SAGE / M 13 / W 14"
   },
   "45623631642803": {
-    "available": true,
+    "available": false,
     "handle": "matterdaddies-sage",
     "price": "140.00",
     "product": "MATTERDADDIES - SAGE",
     "size": "SAGE / M 14 / W 15"
   },
   "45623631675571": {
-    "available": true,
+    "available": false,
     "handle": "matterdaddies-sage",
     "price": "140.00",
     "product": "MATTERDADDIES - SAGE",
